@@ -1,0 +1,24 @@
+header{
+    background-image: url(../images/donation4.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-primary{
+    color: white;
+    background-color: orangered;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: medium;
+}
+.header-introduction{
+    color: rgb(251, 251, 251);
+    
+    text-align: center;
+    padding: 110px;
+
+}
+.header-introduction, h1{
+    font-size: 90px;
+}
