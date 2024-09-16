@@ -1,6 +1,9 @@
+main{
+    margin: 170px;
+}
 header{
     background-image: url(../images/donation4.jpg);
-    height: 600px;
+    height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -20,5 +23,13 @@ header{
 
 }
 .header-introduction, h1{
-    font-size: 90px;
+    font-size: 64px;
 }
+.header-introduction p{
+    font-size: 25px;
+}
+/* Donate today start */
+.donate-today{
+    margin: 130px 320px;
+}
+/* Donate today end */
