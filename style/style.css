@@ -1,8 +1,8 @@
 main{
-    margin: 170px;
+    margin: 198px;
 }
 header{
-    background-image: url(../images/donation4.jpg);
+    background-image: url(../images/donation13.jpg);
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,6 +14,17 @@ header{
     border-radius: 5px;
     padding: 10px;
     font-size: medium;
+}
+.section-title{
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+}
+.section-description{
+    font-size: 23px;
+    color: rgb(115, 119, 122);
+    text-align: center;
+    padding: 0 40px;
 }
 .header-introduction{
     color: rgb(251, 251, 251);
@@ -30,6 +41,137 @@ header{
 }
 /* Donate today start */
 .donate-today{
-    margin: 130px 320px;
+    margin: 130px 200px;
+}
+.donate-taka{
+    display: flex;
+    gap: 90px;
+}
+.donate-taka h1{
+    font-size: 40px;
+    color: rgb(125, 129, 132);
+    text-align: center;
+    padding-top: 50px;
+    height: 100px;
+    width: 150px;
+    background-color: aliceblue;
+    
+}
+.donate-today, button{
+    text-align: center;
 }
 /* Donate today end */
+/* Donate plan start */
+.donate-plan{
+
+}
+.donate-plan-head{
+    margin: 130px 200px;
+}
+.plans{
+    display: flex;
+    gap: 30px;
+}
+.card1{
+    background-color: rgb(203, 250, 250);
+    padding: 55px 25px;
+}
+.card1 h2{
+    font-size: 30px;
+}
+.card1 p{
+    font-size: 20px
+}
+.card2{
+    background-color: rgb(231, 210, 144);
+    padding: 55px 25px;
+}
+.card2 h2{
+    font-size: 30px;
+}
+.card2 p{
+    font-size: 20px
+}
+.card3{
+    background-color: rgb(222, 237, 171);
+    padding: 55px 25px;
+}
+.card3 h2{
+    font-size: 30px;
+}
+.card3 p{
+    font-size: 20px
+}
+/* donate plan end */
+/* donate photo 1 */
+.donation-photo1{
+    display: flex;
+    gap: 120px;
+    margin-top: 150px;
+}
+.donation-photo1 h3{
+    font-size: 55px
+}
+.donation-photo1 img{
+    height: 440px;
+    width: 470px;
+}
+.donation-photo1 p{
+    color: rgb(114, 119, 119);
+    font-size: 25px;
+}
+/* Donation mphoto 1 end */
+/* Donation photo2 start*/
+.donation-photo2{
+    display: flex;
+    /* gap: 120px; */
+    margin-top: 150px;
+}
+.donation-photo2 h3{
+    font-size: 55px
+}
+.donation-photo2 img{
+    height: 440px;
+     width: 470px;
+     margin-right: 120px;
+}
+.donation-photo2 p{
+    color: rgb(114, 119, 119);
+    font-size: 25px;
+}
+/* get update start */
+.get-update{
+    margin: 130px 200px;
+    
+}
+.updat-footer{
+    background-color:  rgb(222, 237, 171);
+    padding: 80px;
+    justify-content: center;
+    display: flex;
+    gap: 0px;
+}
+.updat-footer .email{
+    border: 0px;
+    border-radius: 5px;
+    background-color: #aebaba;
+}
+.updat-footer .email ::placeholder{
+    background-color: #aebaba;
+    border: 1px solid #aebaba;
+}
+/* footer */
+footer{
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+}
+footer h1{
+    font-style: italic;
+    color: rgb(197, 15, 15);
+    margin-bottom: 0px;
+}
+footer p{
+    font-size: 20px;
+    color: #c3cbcb;
+}
