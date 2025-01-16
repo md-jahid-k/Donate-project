@@ -46,6 +46,7 @@ header{
 .donate-taka{
     display: flex;
     gap: 90px;
+    justify-content: center;
 }
 .donate-taka h1{
     font-size: 40px;
@@ -106,8 +107,9 @@ header{
 /* donate photo 1 */
 .donation-photo1{
     display: flex;
-    gap: 120px;
+    gap: 40px;
     margin-top: 150px;
+    align-items: center;
 }
 .donation-photo1 h3{
     font-size: 55px
@@ -124,8 +126,9 @@ header{
 /* Donation photo2 start*/
 .donation-photo2{
     display: flex;
-    /* gap: 120px; */
+    gap: 40px;
     margin-top: 150px;
+    align-items: center;
 }
 .donation-photo2 h3{
     font-size: 55px
@@ -133,7 +136,6 @@ header{
 .donation-photo2 img{
     height: 440px;
      width: 470px;
-     margin-right: 120px;
 }
 .donation-photo2 p{
     color: rgb(114, 119, 119);
